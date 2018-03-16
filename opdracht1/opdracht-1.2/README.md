@@ -26,8 +26,16 @@ De gehele app werkt niet zonder javascript. Net als afbeeldingen is javascript e
 De webapp is goed zichtbaar en alle features van de app zijn nog steeds bruikbaar in verschillende vormen van kleurenblindheid.
 
 #### Breedband internet
+De app laadt alle afbeeldingen in de collectie in een keer. Dit zorgt er voor dat de app op een breedband connectie erg lang op zich laat wachten. Hier zijn zeker verbeteringen in te maken.
+
+- De DOM werdt in 12.60 seconden geladen met 128 kb/s
+- De gehele app en alle portretten waren in 5 minuten geladen
+
+
+De app kan geoptimaliseerd worden op breedband internet door een beperkt aantal portretten per request op te halen. Het laden van overige portretten zou doormiddel van scrollen kunnen.
 
 #### Cookies
+De app maakt geen gebruik van cookies en wordt niet gehinderd door het uitzetten van deze functionaliteit. Hier zijn dus geen optimalisaties mogelijk.
 
 #### LocalStorage
 
