@@ -18,6 +18,8 @@ Het font veranderd iets maar de app blijft zichtbaar en bruikbaar
 ![Test zonder custom fonts](http://kager.io/uploads/minor/browser-technologies/no-custom-fonts.png)
 
 #### Javascript (volledig)
+De gehele app werkt niet zonder javascript. Net als afbeeldingen is javascript een must-have voor het laten werken van deze webapp. Om dit te fixen zou de data server-side gerenderd moeten worden. Dat is veel werk en uit de scope van de werkzaamheden voor deze week.
+![Test zonder javascript](http://kager.io/uploads/minor/browser-technologies/no-javascript.png)
 
 #### Kleurenblindheid
 ![Kleurenblindheid test](http://kager.io/uploads/minor/browser-technologies/color-blind.png)
