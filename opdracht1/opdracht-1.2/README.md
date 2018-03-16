@@ -6,15 +6,30 @@
 Om progressive enhancement toe te passen zou ik de data server-side moeten renderen. Om dit om te bouwen is te veel werk voor de scope van deze opdracht.
 
 ## Check je OBA Web App op de 8 features uit opdracht 1.1 en verbeter de code waar mogelijk
-#### Kleurenblindheid
-![Kleurenblindheid test](http://kager.io/uploads/minor/browser-technologies/color-blind.png)
-De webapp is goed zichtbaar en alle features van de app zijn nog steeds bruikbaar in verschillende vormen van kleurenblindheid.
 
 #### Afbeeldingen
 Gezien de webapp portretten vergelijkt is het bijna onmogelijk om de personen te vergelijken. Men kan alleen de tekst gebruiken om te controleren of eenzelfde persoon op een portret staat.
 
 Het tonen van afbeeldingen is een must-have voor deze app gezien deze zo visueel ingesteld is.
-![Kleurenblindheid test](http://kager.io/uploads/minor/browser-technologies/no-images.png)
+![Test zonder afbeeldingen](http://kager.io/uploads/minor/browser-technologies/no-images.png)
+
+#### Custom fonts
+Het font veranderd iets maar de app blijft zichtbaar en bruikbaar
+![Test zonder custom fonts](http://kager.io/uploads/minor/browser-technologies/no-custom-fonts.png)
+
+#### Javascript (volledig)
+
+#### Kleurenblindheid
+![Kleurenblindheid test](http://kager.io/uploads/minor/browser-technologies/color-blind.png)
+De webapp is goed zichtbaar en alle features van de app zijn nog steeds bruikbaar in verschillende vormen van kleurenblindheid.
+
+#### Breedband internet
+
+#### Cookies
+
+#### LocalStorage
+
+#### Muis/Trackpad
 
 ## Test je OBA Web App in het device lab
 
