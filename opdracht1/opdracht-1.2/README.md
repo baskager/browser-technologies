@@ -40,6 +40,9 @@ De app maakt geen gebruik van cookies en wordt niet gehinderd door het uitzetten
 #### LocalStorage
 
 #### Muis/Trackpad
+De volledige collectie en alle pagina's zijn middels tabs te navigeren. Bij elke tab komt het gefocusde portet naar voren en krijgt deze extra schaduw.
+
+De app is zonder muis of trackpad te gebruiken
 
 ## Test je OBA Web App in het device lab
 
