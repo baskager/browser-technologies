@@ -29,7 +29,7 @@ De webapp is goed zichtbaar en alle features van de app zijn nog steeds bruikbaa
 De app laadt alle afbeeldingen in de collectie in een keer. Dit zorgt er voor dat de app op een breedband connectie erg lang op zich laat wachten. Hier zijn zeker verbeteringen in te maken.
 
 - De DOM werdt in 12.60 seconden geladen met 128 kb/s
-- De gehele app en alle portretten waren in 5 minuten geladen
+- De gehele app en alle portretten waren in 8.7 minuten geladen
 
 
 De app kan geoptimaliseerd worden op breedband internet door een beperkt aantal portretten per request op te halen. Het laden van overige portretten zou doormiddel van scrollen kunnen.
@@ -49,5 +49,13 @@ De app is zonder muis of trackpad te gebruiken
 ## Test je OBA Web App in het device lab
 
 ## Laat je OBA Web App voorlezen door een screenreader
+Alle items zijn middels tabs te navigeren en worden vervolgens voorgelezen. In de detailpagina gebeurd dit ook.
+
+**Mogelijke verbeteringen:**
+- In de detailpagina wordt de metadata zoals leeftijd niet voorgelezen, dit zou verbeterd kunnen worden.
+- Er wordt niet voorgelezen dat het om een afbeelding/portret gaat
+
+
+![Kleurenblindheid test](http://kager.io/uploads/minor/browser-technologies/screenreader.png)
 
 ## Gebruik onderstaande artikelen om je code te optimaliseren
