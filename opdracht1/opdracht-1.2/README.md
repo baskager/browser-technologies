@@ -47,6 +47,13 @@ De volledige collectie en alle pagina's zijn middels tabs te navigeren. Bij elke
 De app is zonder muis of trackpad te gebruiken
 
 ## Test je OBA Web App in het device lab
+Op de meeste devices werkt de app niet omdat EcmaScript 6 modules en classes gebruikt worden. Een oplossing voor dit probleem is om de javascript naar ES5 te compilen middels babel.
+
+Op de LG nexus werkte de webapp omdat deze mobiel standaard wordt geleverd met Google Chrome als browser. Deze browser biedt ondersteuning voor de gebruikte ES6 code. De portretten zijn goed zichtbaar en zijn aan te klikken. Er zijn wel wat verbeteringen mogelijk wat betreft de layout.
+
+![LG Nexus app test](http://kager.io/uploads/minor/browser-technologies/lg-nexus-test.jpg)
+
+Ook kwam ik achter een kleine probleem met de responsive grid, dat probleem is in [deze issue](https://github.com/baskager/ADRmeta/issues/3) gefixed :).
 
 ## Laat je OBA Web App voorlezen door een screenreader
 Alle items zijn middels tabs te navigeren en worden vervolgens voorgelezen. In de detailpagina gebeurd dit ook.
@@ -59,3 +66,9 @@ Alle items zijn middels tabs te navigeren en worden vervolgens voorgelezen. In d
 ![Kleurenblindheid test](http://kager.io/uploads/minor/browser-technologies/screenreader.png)
 
 ## Gebruik onderstaande artikelen om je code te optimaliseren
+- https://24ways.org/2015/the-accessibility-mindset/
+- https://www.smashingmagazine.com/2015/02/bbc-iplayer-accessibility-case-study/
+
+**Mogelijke verbeterpunten na het lezen van de artikelen:**
+- De titel van een portret wordt twee keer genoemd omdat de titel ook in de 'alt' tag van de afbeelding is verwerkt
+- De app kan beter uitgelegd worden voor screenreader gebruikers, de uitleg bovenaan de pagina wordt niet voorgelezen door de screenreader
