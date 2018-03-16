@@ -38,7 +38,9 @@ De app kan geoptimaliseerd worden op breedband internet door een beperkt aantal 
 De app maakt geen gebruik van cookies en wordt niet gehinderd door het uitzetten van deze functionaliteit. Hier zijn dus geen optimalisaties mogelijk.
 
 #### LocalStorage
+In de PDF van opdracht 1.1 staat uitgebreid beschreven wat er gebeurd als localstorage uitgezet wordt. De app functioneert niet naar verwachten als LocalStorage niet beschikbaar is.
 
+Mijn oplossing hiervoor is om een 'storage' klasse te schrijven die terugvalt naar een mogelijke opslagmethode als LocalStorage niet beschikbaar zijn.
 #### Muis/Trackpad
 De volledige collectie en alle pagina's zijn middels tabs te navigeren. Bij elke tab komt het gefocusde portet naar voren en krijgt deze extra schaduw.
 
