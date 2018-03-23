@@ -1,3 +1,6 @@
+# Uitwerking van de opdracht
+https://github.com/baskager/browser-technologies/tree/master/opdracht2
+
 # Browser Technologies
 //Robuuste, toegankelijke websites leren bouwen …
 
