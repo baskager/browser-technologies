@@ -20,9 +20,9 @@ De core functionaliteit is dat de klant zijn klacht kan indienen op de website, 
 ### Features en browserondersteuning
 Met progressive enhancement wil ik dit vervolgens gebruiksvriendelijker maken doormiddel van ajax requests, de klant krijgt dan een bevestiging op het scherm te zien op het moment dat de klacht succesvol verzonden is.
 
-Een optionele feature wordt dat scheldwoorden opgemerkt worden. Deze schulden voeden in de achtergrond een soort 'woede' meter waardoor de interface roder en intenser wordt. Denk aan vlammen en grote teksten (vergelijkbaar met mood lighting), hierdoor krijgt de klant het gevoel dat hij lekker zijn woede kwijt kan.
+Een optionele feature wordt dat scheldwoorden opgemerkt worden. Deze scheldwoorden voeden in de achtergrond een soort 'woede' meter waardoor de interface roder en intenser wordt. Denk aan vlammen en grote teksten (vergelijkbaar met mood lighting), hierdoor krijgt de klant het gevoel dat hij lekker zijn woede kwijt kan.
 
-Deze scheldwoorden verdwijnen uiteindelijk uit de klacht waardoor de klantenservice medewerker niet beledigt wordt. De klantenservice medewerker krijgt wel een indicatie van de boosheid van de klant te zien (de eerder besproken woedemeter).
+Deze scheldwoorden verdwijnen uiteindelijk uit de klacht waardoor de klantenservice medewerker niet beledigd wordt. De klantenservice medewerker krijgt wel een indicatie van de boosheid van de klant te zien (de eerder besproken woedemeter).
 
 Gezien het klachtenformulier gebruik maakt van basale HTML-elementen verwacht ik dat de site ook op simpelere en oudere versies van browsers werkt. De GUI zal dan wel minder pleasureable zijn. Het kan voor gebruikers van oudere of simpelere browsers zo zijn dat bepaalde "enhancements" niet (optimaal) zullen werken
 
