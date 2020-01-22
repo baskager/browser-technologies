@@ -1,6 +1,7 @@
 # Browser Technologies
 
-[![Demo](docs/img/intro.gif)](https://kager.io/contact/)
+[![Demo](docs/img/intro.gif =590x400)](https://kager.io/contact/)
+
 [https://kager.io/contact/](https://kager.io/contact/)
 
 ## Core functionality
@@ -156,7 +157,7 @@ If `v-cache="true"` is set on the form HTML element, the `get()` method will att
 
 ## The Validator component
 
-The validator component is a wrapper for the 'validator' NPM package. The 'validateInputs()' method accepts two arguments. The validation map from the FormMapper component and the request body from an HTTP/Express POST request. 
+The validator component is a wrapper for the 'validator' NPM package. The 'validateInputs()' method accepts two arguments. The validation map from the FormMapper component and the request body from an HTTP/Express POST request.
 
 The method returns an object with all of the validated data and the validation status.
 
@@ -179,7 +180,7 @@ A custom header is sent along by the front-end code.
 xhr.setRequestHeader("xhr", "true");
 ```
 
-This custom header is then searched for on the back-end. 
+This custom header is then searched for on the back-end.
 
 1. If the request was an AJAX request, render the results as JSON
 2. If javascript was not available, there is no AJAX request, so the results should be rendered on the page.
