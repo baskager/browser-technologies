@@ -74,12 +74,12 @@ Modern websites rely so much on Javascript that it actually breaks on more platf
 ### Table 2. Analysis of supported enhancements (front-end)
 
 | Enhancement | HTML | Javascript
-| - | - | - | - | - |
-| Validation without page render                    | [x] | [x]
-| Live validation (without clicking 'submit')       | [ ] | [x]
-| Form submission without page render (AJAX)        | [ ] | [x]
-| Error/success handling without page render (AJAX) | [ ] | [x]
-| Automatic retry on server/network failure         | [ ] | [x]
+| - | - | - |
+| Validation without page render                    | [x] | [x] |
+| Live validation (without clicking 'submit')       | [ ] | [x] |
+| Form submission without page render (AJAX)        | [ ] | [x] |
+| Error/success handling without page render (AJAX) | [ ] | [x] |
+| Automatic retry on server/network failure         | [ ] | [x] |
 
 ### Javascript enhancements
 
