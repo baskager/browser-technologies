@@ -1,6 +1,6 @@
 # Browser Technologies
 
-[![Demo](docs/img/intro.gif =590x400)](https://kager.io/contact/)
+[![Demo](docs/img/intro.gif)](https://kager.io/contact/)
 
 [https://kager.io/contact/](https://kager.io/contact/)
 
@@ -56,7 +56,7 @@ Front-end and Back-end are two disciplines and are often maintained seperately. 
 
 The modern front-end developers' relationship with JavaScript is... unhealthy.
 
-![Disabling javascript](docs/img/javascript-meme.jpg =250x)
+![Disabling javascript](docs/img/javascript-meme.jpg)
 
 Modern websites rely so much on Javascript that it actually breaks on more platforms than it enhances. This is sad, and it's ridiculous. Because it is used for the most benign things. Why would you stop your entire website from working because of for example: an animation? Why gamble with excluding entire demographics when HTML5 elements can solve most of your problems already? **Progressive Enhancement** is the answer.
 
